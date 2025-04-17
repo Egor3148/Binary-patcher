@@ -1,0 +1,1190 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34433 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zdxhwv"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zdxhwv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zdxhwv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b18b7
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b18b7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_b18b7.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b18b7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b18b7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_b18b7.exe /implib:cmTC_b18b7.lib /pdb:cmTC_b18b7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "fltk/CMakeLists.txt:53 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34433 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "fltk/CMakeLists.txt:53 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "fltk/CMakeLists.txt:53 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4t5qtr"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4t5qtr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4t5qtr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3f45f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3f45f.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_3f45f.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3f45f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3f45f.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_3f45f.exe /implib:cmTC_3f45f.lib /pdb:cmTC_3f45f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "fltk/CMakeLists.txt:53 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "fltk/CMakeLists.txt:53 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lztyrj"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lztyrj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lztyrj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_69d65
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_69d65.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_69d65.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lztyrj\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_69d65.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_69d65.dir\\CheckIncludeFile.c.obj  /out:cmTC_69d65.exe /implib:cmTC_69d65.lib /pdb:cmTC_69d65.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oq0v5e"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oq0v5e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oq0v5e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0c1e9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0c1e9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0c1e9.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0v5e\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0c1e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c1e9.dir\\CheckIncludeFile.c.obj  /out:cmTC_0c1e9.exe /implib:cmTC_0c1e9.lib /pdb:cmTC_0c1e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uu24z2"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uu24z2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uu24z2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bf36d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bf36d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bf36d.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-uu24z2\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bf36d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bf36d.dir\\CheckIncludeFile.c.obj  /out:cmTC_bf36d.exe /implib:cmTC_bf36d.lib /pdb:cmTC_bf36d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1tb8sj"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1tb8sj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1tb8sj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b58f2
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b58f2.dir\\SIZEOF_SHORT.c.obj /FdCMakeFiles\\cmTC_b58f2.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1tb8sj\\SIZEOF_SHORT.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b58f2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b58f2.dir\\SIZEOF_SHORT.c.obj  /out:cmTC_b58f2.exe /implib:cmTC_b58f2.lib /pdb:cmTC_b58f2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:187 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ermhor"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ermhor"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ermhor'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d5f27
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d5f27.dir\\SIZEOF_INT.c.obj /FdCMakeFiles\\cmTC_d5f27.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ermhor\\SIZEOF_INT.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d5f27.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d5f27.dir\\SIZEOF_INT.c.obj  /out:cmTC_d5f27.exe /implib:cmTC_d5f27.lib /pdb:cmTC_d5f27.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:188 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7fi9z1"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7fi9z1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7fi9z1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_80214
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_80214.dir\\SIZEOF_LONG.c.obj /FdCMakeFiles\\cmTC_80214.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7fi9z1\\SIZEOF_LONG.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_80214.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_80214.dir\\SIZEOF_LONG.c.obj  /out:cmTC_80214.exe /implib:cmTC_80214.lib /pdb:cmTC_80214.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:189 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:122 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9ochhk"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9ochhk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9ochhk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_393b7
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_393b7.dir\\HAVE_LONG_LONG.c.obj /FdCMakeFiles\\cmTC_393b7.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-9ochhk\\HAVE_LONG_LONG.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_393b7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_393b7.dir\\HAVE_LONG_LONG.c.obj  /out:cmTC_393b7.exe /implib:cmTC_393b7.lib /pdb:cmTC_393b7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:127 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jj3om3"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jj3om3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_ALSA_ASOUNDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jj3om3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b1d6f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b1d6f.dir\\HAVE_ALSA_ASOUNDLIB_H.c.obj /FdCMakeFiles\\cmTC_b1d6f.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jj3om3\\HAVE_ALSA_ASOUNDLIB_H.c
+        FAILED: CMakeFiles/cmTC_b1d6f.dir/HAVE_ALSA_ASOUNDLIB_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b1d6f.dir\\HAVE_ALSA_ASOUNDLIB_H.c.obj /FdCMakeFiles\\cmTC_b1d6f.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jj3om3\\HAVE_ALSA_ASOUNDLIB_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jj3om3\\HAVE_ALSA_ASOUNDLIB_H.c(2): fatal error C1083: Cannot open include file: 'alsa/asoundlib.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:128 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jc81mg"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jc81mg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jc81mg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_39e67
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_39e67.dir\\HAVE_DLFCN_H.c.obj /FdCMakeFiles\\cmTC_39e67.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jc81mg\\HAVE_DLFCN_H.c
+        FAILED: CMakeFiles/cmTC_39e67.dir/HAVE_DLFCN_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_39e67.dir\\HAVE_DLFCN_H.c.obj /FdCMakeFiles\\cmTC_39e67.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jc81mg\\HAVE_DLFCN_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jc81mg\\HAVE_DLFCN_H.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:129 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-60e4hv"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-60e4hv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-60e4hv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_36f34
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_36f34.dir\\HAVE_GL_GLU_H.c.obj /FdCMakeFiles\\cmTC_36f34.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-60e4hv\\HAVE_GL_GLU_H.c
+        FAILED: CMakeFiles/cmTC_36f34.dir/HAVE_GL_GLU_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_36f34.dir\\HAVE_GL_GLU_H.c.obj /FdCMakeFiles\\cmTC_36f34.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-60e4hv\\HAVE_GL_GLU_H.c
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1157): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1157): error C2146: syntax error: missing ',' before identifier 'glAccum'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1157): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1157): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1158): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1158): error C2146: syntax error: missing ',' before identifier 'glAlphaFunc'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1158): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1158): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1159): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1159): error C2146: syntax error: missing ',' before identifier 'glAreTexturesResident'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1159): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1159): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1160): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1160): error C2146: syntax error: missing ',' before identifier 'glArrayElement'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1160): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1160): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1161): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1161): error C2146: syntax error: missing ',' before identifier 'glBegin'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1161): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1161): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1162): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1162): error C2146: syntax error: missing ',' before identifier 'glBindTexture'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1162): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1162): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1163): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1163): error C2146: syntax error: missing ',' before identifier 'glBitmap'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1163): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1163): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1164): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1164): error C2146: syntax error: missing ',' before identifier 'glBlendFunc'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1164): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1164): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1165): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1165): error C2146: syntax error: missing ',' before identifier 'glCallList'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1165): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1165): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1166): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1166): error C2146: syntax error: missing ',' before identifier 'glCallLists'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1166): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1166): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1167): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1167): error C2146: syntax error: missing ',' before identifier 'glClear'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1167): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1167): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1168): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1168): error C2146: syntax error: missing ',' before identifier 'glClearAccum'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1168): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1168): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1169): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1169): error C2146: syntax error: missing ',' before identifier 'glClearColor'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1169): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1169): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1170): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1170): error C2146: syntax error: missing ',' before identifier 'glClearDepth'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1170): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1170): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1171): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1171): error C2146: syntax error: missing ',' before identifier 'glClearIndex'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1171): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1171): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1172): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1172): error C2146: syntax error: missing ',' before identifier 'glClearStencil'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1172): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1172): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1173): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1173): error C2146: syntax error: missing ',' before identifier 'glClipPlane'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1173): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1173): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1174): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1174): error C2146: syntax error: missing ',' before identifier 'glColor3b'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1174): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1174): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1175): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1175): error C2146: syntax error: missing ',' before identifier 'glColor3bv'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1175): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1175): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1176): error C2085: 'APIENTRY': not in formal parameter list
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1176): error C2146: syntax error: missing ',' before identifier 'glColor3d'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1176): error C2143: syntax error: missing ';' before '('
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1176): error C2059: syntax error: ')'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI'
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:130 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0ubiqt"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0ubiqt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0ubiqt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bdd17
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bdd17.dir\\HAVE_LOCALE_H.c.obj /FdCMakeFiles\\cmTC_bdd17.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0ubiqt\\HAVE_LOCALE_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bdd17.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bdd17.dir\\HAVE_LOCALE_H.c.obj  /out:cmTC_bdd17.exe /implib:cmTC_bdd17.lib /pdb:cmTC_bdd17.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:131 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0wvipk"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0wvipk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_OPENGL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0wvipk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7ab4b
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7ab4b.dir\\HAVE_OPENGL_GLU_H.c.obj /FdCMakeFiles\\cmTC_7ab4b.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0wvipk\\HAVE_OPENGL_GLU_H.c
+        FAILED: CMakeFiles/cmTC_7ab4b.dir/HAVE_OPENGL_GLU_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7ab4b.dir\\HAVE_OPENGL_GLU_H.c.obj /FdCMakeFiles\\cmTC_7ab4b.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0wvipk\\HAVE_OPENGL_GLU_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0wvipk\\HAVE_OPENGL_GLU_H.c(2): fatal error C1083: Cannot open include file: 'OpenGL/glu.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:132 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4vlj6z"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4vlj6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4vlj6z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6d73c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6d73c.dir\\HAVE_STDIO_H.c.obj /FdCMakeFiles\\cmTC_6d73c.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4vlj6z\\HAVE_STDIO_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6d73c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6d73c.dir\\HAVE_STDIO_H.c.obj  /out:cmTC_6d73c.exe /implib:cmTC_6d73c.lib /pdb:cmTC_6d73c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:133 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-a5xncz"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-a5xncz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-a5xncz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5f348
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5f348.dir\\HAVE_STRINGS_H.c.obj /FdCMakeFiles\\cmTC_5f348.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-a5xncz\\HAVE_STRINGS_H.c
+        FAILED: CMakeFiles/cmTC_5f348.dir/HAVE_STRINGS_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5f348.dir\\HAVE_STRINGS_H.c.obj /FdCMakeFiles\\cmTC_5f348.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-a5xncz\\HAVE_STRINGS_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-a5xncz\\HAVE_STRINGS_H.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:134 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fprntv"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fprntv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fprntv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_eaa9a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eaa9a.dir\\HAVE_SYS_SELECT_H.c.obj /FdCMakeFiles\\cmTC_eaa9a.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fprntv\\HAVE_SYS_SELECT_H.c
+        FAILED: CMakeFiles/cmTC_eaa9a.dir/HAVE_SYS_SELECT_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eaa9a.dir\\HAVE_SYS_SELECT_H.c.obj /FdCMakeFiles\\cmTC_eaa9a.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fprntv\\HAVE_SYS_SELECT_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fprntv\\HAVE_SYS_SELECT_H.c(2): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:135 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gx60g4"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gx60g4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STDTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gx60g4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7d0f8
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7d0f8.dir\\HAVE_SYS_STDTYPES_H.c.obj /FdCMakeFiles\\cmTC_7d0f8.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gx60g4\\HAVE_SYS_STDTYPES_H.c
+        FAILED: CMakeFiles/cmTC_7d0f8.dir/HAVE_SYS_STDTYPES_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7d0f8.dir\\HAVE_SYS_STDTYPES_H.c.obj /FdCMakeFiles\\cmTC_7d0f8.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gx60g4\\HAVE_SYS_STDTYPES_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gx60g4\\HAVE_SYS_STDTYPES_H.c(2): fatal error C1083: Cannot open include file: 'sys/stdtypes.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:137 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b7vj3r"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b7vj3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_X11_XREGION_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b7vj3r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cc047
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc047.dir\\HAVE_X11_XREGION_H.c.obj /FdCMakeFiles\\cmTC_cc047.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-b7vj3r\\HAVE_X11_XREGION_H.c
+        FAILED: CMakeFiles/cmTC_cc047.dir/HAVE_X11_XREGION_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc047.dir\\HAVE_X11_XREGION_H.c.obj /FdCMakeFiles\\cmTC_cc047.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-b7vj3r\\HAVE_X11_XREGION_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-b7vj3r\\HAVE_X11_XREGION_H.c(2): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:190 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fn7bc8"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fn7bc8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fn7bc8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d27da
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d27da.dir\\HAVE_DIRENT_H.c.obj /FdCMakeFiles\\cmTC_d27da.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fn7bc8\\HAVE_DIRENT_H.c
+        FAILED: CMakeFiles/cmTC_d27da.dir/HAVE_DIRENT_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d27da.dir\\HAVE_DIRENT_H.c.obj /FdCMakeFiles\\cmTC_d27da.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fn7bc8\\HAVE_DIRENT_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fn7bc8\\HAVE_DIRENT_H.c(2): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:193 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-31b2ki"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-31b2ki"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_NDIR_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-31b2ki'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e86bc
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e86bc.dir\\HAVE_SYS_NDIR_H.c.obj /FdCMakeFiles\\cmTC_e86bc.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-31b2ki\\HAVE_SYS_NDIR_H.c
+        FAILED: CMakeFiles/cmTC_e86bc.dir/HAVE_SYS_NDIR_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e86bc.dir\\HAVE_SYS_NDIR_H.c.obj /FdCMakeFiles\\cmTC_e86bc.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-31b2ki\\HAVE_SYS_NDIR_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-31b2ki\\HAVE_SYS_NDIR_H.c(2): fatal error C1083: Cannot open include file: 'sys/ndir.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:195 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ub4jm2"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ub4jm2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_DIR_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ub4jm2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b487e
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b487e.dir\\HAVE_SYS_DIR_H.c.obj /FdCMakeFiles\\cmTC_b487e.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ub4jm2\\HAVE_SYS_DIR_H.c
+        FAILED: CMakeFiles/cmTC_b487e.dir/HAVE_SYS_DIR_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b487e.dir\\HAVE_SYS_DIR_H.c.obj /FdCMakeFiles\\cmTC_b487e.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ub4jm2\\HAVE_SYS_DIR_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ub4jm2\\HAVE_SYS_DIR_H.c(2): fatal error C1083: Cannot open include file: 'sys/dir.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:197 (fl_find_header)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-258yft"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-258yft"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_NDIR_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-258yft'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3976c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3976c.dir\\HAVE_NDIR_H.c.obj /FdCMakeFiles\\cmTC_3976c.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-258yft\\HAVE_NDIR_H.c
+        FAILED: CMakeFiles/cmTC_3976c.dir/HAVE_NDIR_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3976c.dir\\HAVE_NDIR_H.c.obj /FdCMakeFiles\\cmTC_3976c.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-258yft\\HAVE_NDIR_H.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-258yft\\HAVE_NDIR_H.c(2): fatal error C1083: Cannot open include file: 'ndir.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:257 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoe1jz"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoe1jz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoe1jz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bd874
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bd874.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bd874.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoe1jz\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_bd874.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bd874.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bd874.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoe1jz\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoe1jz\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:260 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug1tay"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug1tay"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug1tay'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e33fc
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e33fc.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e33fc.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ug1tay\\CheckSymbolExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e33fc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e33fc.dir\\CheckSymbolExists.c.obj  /out:cmTC_e33fc.exe /implib:cmTC_e33fc.lib /pdb:cmTC_e33fc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:269 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rtw3vq"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rtw3vq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rtw3vq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9a966
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9a966.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_9a966.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rtw3vq\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_9a966.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9a966.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_9a966.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rtw3vq\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rtw3vq\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:270 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wlxgvw"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wlxgvw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wlxgvw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6c816
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6c816.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_6c816.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wlxgvw\\CheckSymbolExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6c816.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6c816.dir\\CheckSymbolExists.c.obj  /out:cmTC_6c816.exe /implib:cmTC_6c816.lib /pdb:cmTC_6c816.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:279 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ta9g56"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ta9g56"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ta9g56'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8c4a4
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8c4a4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_8c4a4.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ta9g56\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_8c4a4.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8c4a4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_8c4a4.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ta9g56\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ta9g56\\CheckSymbolExists.c(8): error C2065: 'strlcat': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:280 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-09v05w"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-09v05w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-09v05w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d90c7
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d90c7.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d90c7.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-09v05w\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_d90c7.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d90c7.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d90c7.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-09v05w\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-09v05w\\CheckSymbolExists.c(8): error C2065: 'strlcpy': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:281 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgwxij"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgwxij"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgwxij'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_13312
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_13312.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_13312.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kgwxij\\CheckSymbolExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_13312.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_13312.dir\\CheckSymbolExists.c.obj  /out:cmTC_13312.exe /implib:cmTC_13312.lib /pdb:cmTC_13312.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:283 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wktfcz"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wktfcz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wktfcz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5693b
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5693b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5693b.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wktfcz\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_5693b.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5693b.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5693b.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wktfcz\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wktfcz\\CheckSymbolExists.c(8): error C2065: 'setenv': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:290 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:127 (include)"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c3n14w"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c3n14w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+    buildResult:
+      variable: "HAVE_TRUNC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c3n14w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_57fb9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_57fb9.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_57fb9.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c3n14w\\CheckSymbolExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_57fb9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_57fb9.dir\\CheckSymbolExists.c.obj  /out:cmTC_57fb9.exe /implib:cmTC_57fb9.lib /pdb:cmTC_57fb9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/options.cmake:703 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:132 (include)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z7y0kc"
+      binary: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z7y0kc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/fltk/CMake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z7y0kc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c8473
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo  -I\\GL -I"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um" /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c8473.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_c8473.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z7y0kc\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_c8473.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo  -I\\GL -I"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um" /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c8473.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_c8473.dir\\ /FS -c C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z7y0kc\\CheckSymbolExists.c
+        C:\\_George\\BSU\\3S\\DS_sec\\Exe_patcher\\cmake\\text_printer\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-z7y0kc\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'glx.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

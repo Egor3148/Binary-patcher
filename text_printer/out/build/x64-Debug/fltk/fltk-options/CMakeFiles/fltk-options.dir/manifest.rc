@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/_George/BSU/3S/DS_sec/Exe_patcher/cmake/text_printer/out/build/x64-Debug/fltk/fltk-options/CMakeFiles/fltk-options.dir/embed.manifest"
