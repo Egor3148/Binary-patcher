@@ -15,7 +15,7 @@
 ## Building
  - This project uses <code>CMake</code> for building. See <code>CMakeLists.txt</code> for build specifications.
  - Change <code>USE_FLTK</code> option to build a CLI or GUI version
- - **WARNING!** After changing this option make sure that CMake cache gets cleaned. Removing <code></code>
+ - **WARNING!** After changing this option make sure that CMake cache gets cleaned. Removing <code>out/build</code> folder is the simplest way to do that
 
 ## Additional notes
  - This project contains dependencies written by other deverlopers:
